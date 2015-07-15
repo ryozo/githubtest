@@ -3,4 +3,5 @@ language: java
 jdk:
   - oraclejdk8
 
-intall: mvn intall -Ptravis
+before_install:
+  - touch travis-mvn-profile.activate
