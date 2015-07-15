@@ -19,7 +19,7 @@
             <id>travis</id>
             <activation>
                 <file>
-                    <exists>/travis-mvn-profile.activate</exists>
+                    <exists>travis-mvn-profile.activate</exists>
                 </file>
             </activation>
             <dependencies>
